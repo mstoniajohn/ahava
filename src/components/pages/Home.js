@@ -1,6 +1,7 @@
 import React from 'react';
 import { Jumbotron, Container, Row, Col } from 'react-bootstrap';
 import hand from '../../undraw_environment_iaus.svg';
+import IntroSection from '../IntroSection';
 
 const Home = () => {
 	return (
@@ -25,6 +26,7 @@ const Home = () => {
 					</Row>
 				</Container>
 			</Jumbotron>
+			<IntroSection />
 		</>
 	);
 };
