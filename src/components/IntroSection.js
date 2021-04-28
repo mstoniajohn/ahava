@@ -6,6 +6,32 @@ import people from '../undraw_hang_out_h9ud.png';
 const IntroSection = () => {
 	return (
 		<Container className="p-3">
+			<Row>
+				<Col className="d-flex flex-column justify-content-center">
+					<h2 className="text-center text-primary mb-2">Donate Today</h2>
+					<h5>
+						Construction on new Ahava Hope Foundation Headquarters in Grenada
+					</h5>
+				</Col>
+				<Col>
+					<iframe
+						allowpaymentrequest=""
+						frameborder="0"
+						height="900px"
+						name="donorbox"
+						scrolling="no"
+						seamless="seamless"
+						src="https://donorbox.org/embed/construction-on-new-ahava-hope-foundation-headquarters-in-grenada"
+						style={{
+							maxWidth: '500px',
+							minWidth: ' 250px',
+							maxHeight: 'none !important',
+							margin: '0 auto',
+						}}
+						width="100%"
+					></iframe>
+				</Col>
+			</Row>
 			<Row className="d-flex align-items-center">
 				<Col>
 					<img width="400" src={children} alt="" />
