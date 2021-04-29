@@ -325,13 +325,13 @@ button {
 
 	/* Navbar */
 	.navbar {
-		display: block;
+		display: flex;
 		text-align: center;
 	}
 
 	.navbar ul {
 		text-align: center;
-		justify-content: center;
+		justify-content: space-between;
 	}
 
 	.navbar h1 {
