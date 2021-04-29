@@ -20,6 +20,7 @@ const IntroSection = () => {
 						height="900px"
 						name="donorbox"
 						scrolling="no"
+						title="donorbox"
 						seamless="seamless"
 						src="https://donorbox.org/embed/construction-on-new-ahava-hope-foundation-headquarters-in-grenada"
 						style={{
