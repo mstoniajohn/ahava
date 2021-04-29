@@ -1,5 +1,5 @@
 import React from 'react';
-import { Jumbotron, Container, Row, Col } from 'react-bootstrap';
+import { Jumbotron } from 'react-bootstrap';
 import hand from '../../undraw_environment_iaus.svg';
 import IntroSection from '../IntroSection';
 
@@ -7,12 +7,12 @@ const Home = () => {
 	return (
 		<>
 			<Jumbotron fluid>
-				<Container>
-					<Row>
-						<Col>
-							<img style={{ maxWidth: '400px' }} src={hand} alt="" />
-						</Col>
-						<Col>
+				<div className="container">
+					<div className="grid-2">
+						<div>
+							<img src={hand} alt="" />
+						</div>
+						<div>
 							<h1>
 								Ahava Hope <span className="text-primary">Foundation</span>
 							</h1>
@@ -20,12 +20,14 @@ const Home = () => {
 								Ahava Hope Foundation is a New York based IRS approved 501(c)3
 								charity focused on education and charity work in Grenada.
 							</p>
-							Email us at{' '}
-							<a href="mailto:info@ahavahopefoundation.org">
-								info@ahavahopefoundation.org
-							</a>
-						</Col>
-					</Row>
+							<p>
+								Email us at{' '}
+								<a href="mailto:info@ahavahopefoundation.org">
+									info@ahavahopefoundation.org
+								</a>
+							</p>
+						</div>
+					</div>
 					<p className="text-center">
 						<a
 							style={{ borderRadius: '10px' }}
@@ -37,7 +39,7 @@ const Home = () => {
 							Donate Now
 						</a>
 					</p>
-				</Container>
+				</div>
 			</Jumbotron>
 			<IntroSection />
 		</>
