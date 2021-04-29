@@ -10,7 +10,7 @@ const Home = () => {
 				<Container>
 					<Row>
 						<Col>
-							<img width="400" src={hand} alt="" />
+							<img style={{ maxWidth: '400px' }} src={hand} alt="" />
 						</Col>
 						<Col>
 							<h1>
